@@ -35,4 +35,5 @@ Use ACE3's method. Atom is a great editor which can work very well with GitHub.<
 
 ## Credit
 
-<b>veteran29 </b> for making the [original mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1682845363)
+<b>veteran29 </b> for making the [original mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1682845363)<br/>
+[His GitLab](https://gitlab.com/armaforces/armaforces_no_actions/-/tree/master)
