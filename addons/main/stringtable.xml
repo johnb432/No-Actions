@@ -74,8 +74,8 @@
         <German>Nachladen-Aktion entfernen (ungeladene Waffe)</German>
     </Key>
     <Key ID="STR_no_actions_LoadEmptyMagazine_desc">
-        <English>Hides the Reload entry from the action menu when the weapon is unloaded. Requires a game restart.</English>
-        <German>Entfernt die Nachladen-Aktion aus dem Aktionsmenü wenn die Waffe ungeladen ist. Benötigt einen Neustart des Spiels.</German>
+        <English>Hides the Reload entry from the action menu when the weapon is unloaded. Requires a game restart. WARNING: THIS SETTING AFFECTS VEHICLES TOO.</English>
+        <German>Entfernt die Nachladen-Aktion aus dem Aktionsmenü wenn die Waffe ungeladen ist. Benötigt einen Neustart des Spiels. WARNUNG: DIESE EINSTELLUNG WIRKT AUCH AUF FAHRZEUGE.</German>
     </Key>
 
     <Key ID="STR_no_actions_LoadOtherMagazine">
@@ -83,8 +83,8 @@
         <German>Nachladen-Aktion entfernen (geladene Waffe)</German>
     </Key>
     <Key ID="STR_no_actions_LoadOtherMagazine_desc">
-        <English>Hides the Reload entry from the action menu when the weapon is loaded. Requires a game restart.</English>
-        <German>Entfernt die Nachladen-Aktion aus dem Aktionsmenü wenn die Waffe geladen ist. Benötigt einen Neustart des Spiels.</German>
+        <English>Hides the Reload entry from the action menu when the weapon is loaded. Requires a game restart. WARNING: THIS SETTING AFFECTS VEHICLES TOO.</English>
+        <German>Entfernt die Nachladen-Aktion aus dem Aktionsmenü wenn die Waffe geladen ist. Benötigt einen Neustart des Spiels. WARNUNG: DIESE EINSTELLUNG WIRKT AUCH AUF FAHRZEUGE.</German>
     </Key>
 
     <Key ID="STR_no_actions_Rearm">
