@@ -13,10 +13,10 @@ This addon removes useless action menu actions. These can be configured in the C
 - Eject (which ACE3 also offers to disable)
 - Rearm
 - Picking up weapons
-- Reloading Weapons <b>(Warning: These settings affects vehicles too!!!)</b>
+- Reloading Weapons <b>(Warning: These settings affect vehicles too!!!)</b>
 - and several more
 
-AIME can an alternative.
+AIME can be an alternative.
 
 ## Development environment
 
