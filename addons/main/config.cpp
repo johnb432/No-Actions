@@ -15,7 +15,7 @@ class CfgPatches {
 	};
 };
 class CfgMods {
-  class ADDON {
+  class PREFIX {
     dir = "@No Actions";
     name = "No Actions";
     hideName = "true";

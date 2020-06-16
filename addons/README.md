@@ -25,3 +25,7 @@ This addon removes useless action menu actions. These can be configured in the C
 
 <b>veteran29 </b> for making the [original mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1682845363)<br/>
 [His GitLab](https://gitlab.com/armaforces/armaforces_no_actions/-/tree/master)
+
+## License
+
+See LICENSE.txt
