@@ -1,4 +1,4 @@
-# ArmaForces - No Actions
+# No Actions
 
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1682845363)<br/>
 [GitHub](https://github.com/johnb432/No-Actions)<br/>
