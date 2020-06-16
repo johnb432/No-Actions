@@ -115,12 +115,12 @@
     </Key>
 
     <Key ID="STR_no_actions_ManualFire">
-        <English>Hide Manual fire (loaded weapon)</English>
-        <German>Manuelles Feuern-Aktion entfernen (geladene Waffe)</German>
+        <English>Hide Manual fire</English>
+        <German>Manuelles Feuern-Aktion entfernen</German>
     </Key>
     <Key ID="STR_no_actions_ManualFire_desc">
-        <English>Hides the Manual fire entry from the action menu when the weapon is loaded. Requires a game restart. WARNING: THIS SETTING AFFECTS VEHICLES TOO.</English>
-        <German>Entfernt die Manuelles Feuern-Aktion aus dem Aktionsmenü wenn die Waffe geladen ist. Benötigt einen Neustart des Spiels. WARNUNG: DIESE EINSTELLUNG WIRKT AUCH AUF FAHRZEUGE.</German>
+        <English>Hides the Manual fire entry from the action menu. Requires a game restart.</English>
+        <German>Entfernt die Manuelles Feuern-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
     </Key>
 
     <Key ID="STR_no_actions_OpenBag">
