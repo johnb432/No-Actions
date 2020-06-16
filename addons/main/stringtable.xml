@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="no_actions">
+    <Key ID="STR_no_actions_CollisionLightOff">
+        <English>Hide Collision lights off action</English>
+        <German>Kollisionslichter aus-Aktion entfernen</German>
+    </Key>
+    <Key ID="STR_no_actions_CollisionLightOff_desc">
+        <English>Hides the Collision lights off entry from the action menu. Requires a game restart.</English>
+        <German>Entfernt die Kollisionslichter aus-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
+    </Key>
+
+    <Key ID="STR_no_actions_CollisionLightOn">
+        <English>Hide Collision lights on action</English>
+        <German>Kollisionslichter an-Aktion entfernen</German>
+    </Key>
+    <Key ID="STR_no_actions_CollisionLightOn_desc">
+        <English>Hides the Collision lights on entry from the action menu. Requires a game restart.</English>
+        <German>Entfernt die Kollisionslichter an-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
+    </Key>
+
     <Key ID="STR_no_actions_DisAssemble">
         <English>Hide Disassemble action</English>
         <German>Demontieren-Aktion entfernen</German>
@@ -38,6 +56,15 @@
         <German>Entfernt die Abspringen-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
     </Key>
 
+    <Key ID="STR_no_actions_Gear">
+        <English>Hide Inventory action</English>
+        <German>Inventar-Aktion entfernen</German>
+    </Key>
+    <Key ID="STR_no_actions_Gear_desc">
+        <English>Hides the Inventory entry from the action menu. Requires a game restart.</English>
+        <German>Entfernt die Inventar-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
+    </Key>
+
     <Key ID="STR_no_actions_GetOut">
         <English>Hide Get out action</English>
         <German>Aussteigen-Aktion entfernen</German>
@@ -50,23 +77,23 @@
     <Key ID="STR_no_actions_LightOff">
         <English>Hide Lights off action</English>
         <Polish>Ukryj akcję Wyłącz światła</Polish>
-        <German>Lichter ausschalten-Aktion entfernen</German>
+        <German>Lichter aus-Aktion entfernen</German>
     </Key>
     <Key ID="STR_no_actions_LightOff_desc">
         <English>Hides the Lights off entry from the action menu. Requires a game restart.</English>
         <Polish>Usuwa akcję Wyłącz światła z menu akcji. Wymaga restartu gry.</Polish>
-        <German>Entfernt die Lichter ausschalten-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
+        <German>Entfernt die Lichter aus-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
     </Key>
 
     <Key ID="STR_no_actions_LightOn">
         <English>Hide Lights on action</English>
         <Polish>Ukryj akcję Włącz światła</Polish>
-        <German>Lichter anschalten-Aktion entfernen</German>
+        <German>Lichter an-Aktion entfernen</German>
     </Key>
     <Key ID="STR_no_actions_LightOn_desc">
         <English>Hides the Lights on entry from the action menu. Requires a game restart.</English>
         <Polish>Usuwa akcję Włącz światła z menu akcji. Wymaga restartu gry.</Polish>
-        <German>Entfernt die Lichter anschalten-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
+        <German>Entfernt die Lichter an-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
     </Key>
 
     <Key ID="STR_no_actions_LoadEmptyMagazine">
@@ -87,6 +114,24 @@
         <German>Entfernt die Nachladen-Aktion aus dem Aktionsmenü wenn die Waffe geladen ist. Benötigt einen Neustart des Spiels. WARNUNG: DIESE EINSTELLUNG WIRKT AUCH AUF FAHRZEUGE.</German>
     </Key>
 
+    <Key ID="STR_no_actions_ManualFire">
+        <English>Hide Manual fire (loaded weapon)</English>
+        <German>Manuelles Feuern-Aktion entfernen (geladene Waffe)</German>
+    </Key>
+    <Key ID="STR_no_actions_ManualFire_desc">
+        <English>Hides the Manual fire entry from the action menu when the weapon is loaded. Requires a game restart. WARNING: THIS SETTING AFFECTS VEHICLES TOO.</English>
+        <German>Entfernt die Manuelles Feuern-Aktion aus dem Aktionsmenü wenn die Waffe geladen ist. Benötigt einen Neustart des Spiels. WARNUNG: DIESE EINSTELLUNG WIRKT AUCH AUF FAHRZEUGE.</German>
+    </Key>
+
+    <Key ID="STR_no_actions_OpenBag">
+        <English>Hide Open backpack action</English>
+        <German>Rucksack öffnen-Aktion entfernen</German>
+    </Key>
+    <Key ID="STR_no_actions_OpenBag_desc">
+        <English>Hides the Open backpack entry from the action menu. Requires a game restart.</English>
+        <German>Entfernt die Rucksack öffnen-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
+    </Key>
+
     <Key ID="STR_no_actions_Rearm">
         <English>Hide Rearm action</English>
         <Polish>Ukryj akcję Przezbrój</Polish>
@@ -98,13 +143,31 @@
         <German>Entfernt die Neu bewaffnen-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
     </Key>
 
+    <Key ID="STR_no_actions_SearchLightOff">
+        <English>Hide Searchlight off action</English>
+        <German>Suchscheinwerfer aus-Aktion entfernen</German>
+    </Key>
+    <Key ID="STR_no_actions_SearchLightOff_desc">
+        <English>Hides the Searchlight off entry from the action menu. Requires a game restart.</English>
+        <German>Entfernt die Suchscheinwerfer aus-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
+    </Key>
+
+    <Key ID="STR_no_actions_SearchLightOn">
+        <English>Hide Searchlight on action</English>
+        <German>Suchscheinwerfer an-Aktion entfernen</German>
+    </Key>
+    <Key ID="STR_no_actions_SearchLightOn_desc">
+        <English>Hides the Searchlight on entry from the action menu. Requires a game restart.</English>
+        <German>Entfernt die Suchscheinwerfer an-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
+    </Key>
+
     <Key ID="STR_no_actions_TakeDropWeapon">
         <English>Hide Take action (replace weapon)</English>
-        <German>Nehmen-Aktion entfernen (Waffe ersetzen)</German>
+        <German>Aufnehmen-Aktion entfernen (Waffe ersetzen)</German>
     </Key>
     <Key ID="STR_no_actions_TakeDropWeapon_desc">
         <English>Hides the Take entry from the action menu when you have a weapon already. Requires a game restart.</English>
-        <German>Entfernt die Nehmen-Aktion aus dem Aktionsmenü wenn man eine Waffe schon hat. Benötigt einen Neustart des Spiels.</German>
+        <German>Entfernt die Aufnehmen-Aktion aus dem Aktionsmenü wenn man eine Waffe schon hat. Benötigt einen Neustart des Spiels.</German>
     </Key>
 
     <Key ID="STR_no_actions_TakeWeapon">
@@ -138,12 +201,21 @@
         <German>Entfernt die Luke öffnen-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
     </Key>
 
+    <Key ID="STR_no_actions_UAVTerminalOpen">
+        <English>Hide Open UAV Terminal action</English>
+        <German>UAV-Terminal öffnen-Aktion entfernen</German>
+    </Key>
+    <Key ID="STR_no_actions_UAVTerminalOpen_desc">
+        <English>Hides the Open UAV Terminal entry from the action menu. Requires a game restart.</English>
+        <German>Entfernt die UAV-Terminal öffnen-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
+    </Key>
+
     <Key ID="STR_no_actions_UnloadUnconsciousUnits">
         <English>Hide Unload Incapacitated action</English>
-        <German>Lichter ausschalten-Aktion entfernen</German>
+        <German>Kampfunfähige ausladen-Aktion entfernen</German>
     </Key>
     <Key ID="STR_no_actions_UnloadUnconsciousUnits_desc">
         <English>Hides the Unload Incapacitated entry from the action menu. Requires a game restart.</English>
-        <German>Entfernt die Lichter ausschalten-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
+        <German>Entfernt die Kampfunfähige ausladen-Aktion aus dem Aktionsmenü. Benötigt einen Neustart des Spiels.</German>
     </Key>
 </Project>

@@ -15,12 +15,12 @@ class CfgPatches {
 	};
 };
 class CfgMods {
-  class PREFIX {
+  class ADDON {
     dir = "@No Actions";
     name = "No Actions";
     hideName = "true";
     actionName = "GitHub";
-    action = "https://github.com/johnb432/TAO_rewrite";
+    action = "https://github.com/johnb432/No-Actions";
     description = "Removes various vanilla scrollwheel interactions";
   };
 };
