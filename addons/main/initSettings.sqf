@@ -10,7 +10,7 @@
     ],\
     ["No Actions", CATEGORY],\
     DEFAULT,\
-    2,\
+    0,\
     {\
         profileNamespace setVariable ['no_actions_main_show##NAME', parseNumber !_this];\
         saveProfileNamespace;\
