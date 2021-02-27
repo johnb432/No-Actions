@@ -1,4 +1,4 @@
-# Changelog for Zeus Additions 27.2.2021
+# Changelog for No Actions 27.2.2021
 
 - Changed inner workings of mod to use more macros
 
