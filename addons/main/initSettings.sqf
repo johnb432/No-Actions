@@ -2,18 +2,17 @@
 
 #define NO_ACTION_SETTING(NAME, CATEGORY, DEFAULT)\
 [\
-    'no_actions_main_##NAME',\
+    QGVAR(NAME),\
     "CHECKBOX",\
     [\
-        localize 'STR_no_actions_##NAME',\
-        localize 'STR_no_actions_##NAME##_desc'\
+        LLSTRING(NAME),\
+        LLSTRING(DOUBLES(NAME,desc))\
     ],\
-    ["No Actions", CATEGORY],\
+    [COMPONENT_NAME, CATEGORY],\
     DEFAULT,\
     0,\
     {\
-        profileNamespace setVariable ['no_actions_main_show##NAME', parseNumber !_this];\
-        saveProfileNamespace;\
+        SETPRVAR(GVAR(DOUBLES(show,NAME)), parseNumber !_this);\
     },\
     true\
 ] call CBA_fnc_addSetting

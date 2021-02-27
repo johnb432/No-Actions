@@ -1,3 +1,7 @@
+# Changelog for Zeus Additions 27.2.2021
+
+- Changed inner workings of mod to use more macros
+
 # No Actions
 
 [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1682845363)<br/>
