@@ -1,3 +1,8 @@
+# Changelog for No Actions 23.5.2021
+
+- Changed default value to 1, which should make the mod disable nothing when run for the first time
+- Cleanup
+
 # Changelog for No Actions 27.2.2021
 
 - Changed inner workings of mod to use more macros
@@ -27,7 +32,7 @@ This addon removes useless action menu actions. These can be configured in the C
 
 ## Credit
 
-<b>veteran29 </b> for making the [original mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1682845363)<br/>
+<b>veteran29</b> for making the [original mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1682845363)<br/>
 [His GitLab](https://gitlab.com/armaforces/armaforces_no_actions/-/tree/master)
 
 ## License

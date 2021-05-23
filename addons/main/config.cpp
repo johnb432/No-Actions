@@ -15,9 +15,8 @@ class CfgPatches {
 };
 class CfgMods {
 				class PREFIX {
-								dir = "@No Actions";
 								name = "No Actions";
-								hideName = "true";
+								hideName = 1;
 								actionName = "GitHub";
 								action = "https://github.com/johnb432/No-Actions";
 								description = "Removes various vanilla scrollwheel interactions";
