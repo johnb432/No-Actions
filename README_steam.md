@@ -24,10 +24,3 @@ AIMEE adds an ACE world-interaction when you are in a vehicle to change ammo typ
 [h2]Credit[/h2]
 
 [url=https://gitlab.com/armaforces/armaforces_no_actions/-/tree/master]veteran29[/url] for making the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1682845363]original mod[/url].
-
-[h2]How to create PBOs[/h2]
-[list]
-[*] Download and install hemtt from [url=https://github.com/BrettMayson/HEMTT]here[/url]
-[*] Open command terminal, navigate to said folder (Windows: cd 'insert path')
-[*] Type "hemtt build" for pbo, "hemtt build --release" for entire release
-[/list]
