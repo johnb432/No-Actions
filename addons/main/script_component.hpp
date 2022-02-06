@@ -1,5 +1,4 @@
 #define COMPONENT main
-#define COMPONENT_BEAUTIFIED Main
 #include "\x\no_actions\addons\main\script_mod.hpp"
 
 // #define DEBUG_MODE_FULL
