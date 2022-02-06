@@ -1,5 +1,10 @@
 #include "script_component.hpp"
 
+#define ACTION(NAME,PARENT)\
+class NAME: PARENT {\
+    show = QUOTE(call compile 'GETPRVAR(QQGVAR(DOUBLES(show,NAME)),1)');\
+}
+
 class CfgActions {
     class None;
     ACTION(CollisionLightOn,None);

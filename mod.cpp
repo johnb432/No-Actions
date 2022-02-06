@@ -1,5 +1,6 @@
 name = "No Actions";
 author = "johnb43";
+tooltip = "No Actions";
 tooltipOwned = "No Actions";
 hideName = 0;
 hidePicture = 0;
@@ -9,4 +10,6 @@ description = "Removes various vanilla scrollwheel interactions.";
 overview = "Removes various vanilla scrollwheel interactions.";
 picture = "\x\no_actions\addons\main\ui\logo_no_actions.paa";
 logo = "\x\no_actions\addons\main\ui\logo_no_actions.paa";
+logoOver = "\x\no_actions\addons\main\ui\logo_no_actions.paa";
+logoSmall = "\x\no_actions\addons\main\ui\logo_no_actions.paa";
 overviewPicture = "\x\no_actions\addons\main\ui\logo_no_actions.paa";
