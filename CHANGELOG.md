@@ -1,3 +1,8 @@
+# Changelog for No Actions 3.2.2023
+
+1.3.1.3
+- Added ability to turn off many more actions.
+
 # Changelog for No Actions 6.2.2022
 
 1.3.1.2
