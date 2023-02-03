@@ -1,15 +1,15 @@
+// https://community.bistudio.com/wiki/modParams
 name = "No Actions";
 author = "johnb43";
-tooltip = "No Actions";
-tooltipOwned = "No Actions";
-hideName = 0;
-hidePicture = 0;
-actionName = "Github";
-action = "https://github.com/johnb432/No-Actions";
-description = "Removes various vanilla scrollwheel interactions.";
-overview = "Removes various vanilla scrollwheel interactions.";
+// https://community.bistudio.com/wiki/ImageToPAA
 picture = "\x\no_actions\addons\main\ui\logo_no_actions.paa";
 logo = "\x\no_actions\addons\main\ui\logo_no_actions.paa";
 logoOver = "\x\no_actions\addons\main\ui\logo_no_actions.paa";
 logoSmall = "\x\no_actions\addons\main\ui\logo_no_actions.paa";
-overviewPicture = "\x\no_actions\addons\main\ui\logo_no_actions.paa";
+tooltip = "No Actions";
+tooltipOwned = "No Actions";
+action = "https://github.com/johnb432/No-Actions";
+actionName = "Github";
+overview = "Removes various vanilla scrollwheel interactions, made by johnb43.";
+hidePicture = 0;
+hideName = 0;
