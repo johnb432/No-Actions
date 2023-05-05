@@ -21,6 +21,13 @@
         <English>Hides the Assemble entry from the action menu.\nRequires a game restart.</English>
     </Key>
 
+    <Key ID="STR_no_actions_main_BackFromUAV">
+        <English>Hide Release UAV controls action</English>
+    </Key>
+    <Key ID="STR_no_actions_main_BackFromUAV_desc">
+        <English>Hides the Release UAV controls entry from the action menu.\nRequires a game restart.</English>
+    </Key>
+
     <Key ID="STR_no_actions_main_CancelLand">
         <English>Hide Landing autopilot off action</English>
     </Key>

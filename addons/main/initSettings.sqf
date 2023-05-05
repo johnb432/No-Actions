@@ -77,6 +77,7 @@ NO_ACTION_SETTING(Rearm,"Vehicles");
 NO_ACTION_SETTING(SearchLightOff,"Vehicles");
 NO_ACTION_SETTING(SearchLightOn,"Vehicles");
 
+NO_ACTION_SETTING(BackFromUAV,"UAV");
 NO_ACTION_SETTING(SwitchToUAVDriver,"UAV");
 NO_ACTION_SETTING(SwitchToUAVGunner,"UAV");
 NO_ACTION_SETTING(UAVTerminalMakeConnection,"UAV");

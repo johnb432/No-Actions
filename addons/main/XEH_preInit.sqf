@@ -6,7 +6,7 @@ ADDON = false;
 #include "initSettings.sqf"
 
 // Removes addition of inventory action by ACE when unit is unconscious; Requires mission restart to remove the removal
-if (GVAR(Gear) && {isClass (configFile >> "CfgPatches" >> "ace_medical_status")}) then {
+if (GVAR(Gear) && {!isNil "ace_medical_status"}) then {
     ["CAManBase", "initPost", {
         params ["_unit"];
 

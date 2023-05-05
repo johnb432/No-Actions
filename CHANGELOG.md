@@ -1,3 +1,9 @@
+# Changelog for No Actions 5.5.2023
+
+1.3.1.4
+- Added ability to turn off Release UAV controls action.
+- Updated to use HEMTT 1.2.0.
+
 # Changelog for No Actions 3.2.2023
 
 1.3.1.3

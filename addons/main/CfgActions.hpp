@@ -70,6 +70,7 @@ class CfgActions {
     ACTION(SearchLightOn,None);
     ACTION(SearchLightOff,SearchLightOn);
 
+    ACTION(BackFromUAV,None);
     ACTION(SwitchToUAVDriver,None);
     ACTION(SwitchToUAVGunner,None);
     ACTION(UAVTerminalMakeConnection,None);
