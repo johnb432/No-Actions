@@ -10,6 +10,6 @@ tooltip = "No Actions";
 tooltipOwned = "No Actions";
 action = "https://github.com/johnb432/No-Actions";
 actionName = "Github";
-overview = "Removes various vanilla scrollwheel interactions, made by johnb43.";
+overview = "Removes various vanilla scrollwheel interactions. Made by johnb43.";
 hidePicture = 0;
 hideName = 0;

@@ -1,4 +1,4 @@
-[b]No Actions[/b] is a client side mod that removes useless action menu actions. These can be configured in the CBA settings.
+[b]No Actions[/b] is a client side mod that removes action menu actions. These can be configured in the CBA settings.
 
 [h2]CBA Settings[/h2]
 

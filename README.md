@@ -1,4 +1,4 @@
-**No Actions** is a client side mod that removes useless action menu actions. These can be configured in the CBA settings.
+**No Actions** is a client side mod that removes action menu actions. These can be configured in the CBA settings.
 
 <h2>CBA Settings</h2>
 
@@ -30,9 +30,3 @@
 <h2>License</h2>
 
 See LICENSE.
-
-<h2>How to create PBOs</h2>
-
-* Download and install hemtt from [here](https://github.com/BrettMayson/HEMTT)
-* Open command terminal, navigate to said folder (Windows: cd 'insert path')
-* Type "hemtt build" for pbo, "hemtt build --release" for entire release
