@@ -1,3 +1,8 @@
+# Changelog for No Actions 26.5.2023
+
+1.3.1.5
+- Fixed bug with inventory opening on unconscious units when ACE is loaded (bug introduced in 1.3.1.4).
+
 # Changelog for No Actions 5.5.2023
 
 1.3.1.4
