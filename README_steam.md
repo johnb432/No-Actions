@@ -16,6 +16,8 @@
 [*] and more
 [/list]
 
+If ACE is loaded, action settings such as for the "Put Mine" action will not be available.
+
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2132195038]AIMEE[/url] adds ACE interactions for most vanilla scroll wheel actions.
 
 [h2]Links[/h2]
