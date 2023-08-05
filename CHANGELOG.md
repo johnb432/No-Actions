@@ -1,3 +1,9 @@
+# Changelog for No Actions 5.8.2023
+
+1.3.1.6
+- Added ability to turn off multiple medical and explosives related actions.
+- If ACE is loaded, some actions' settings will not be available and will not take effect.
+
 # Changelog for No Actions 26.5.2023
 
 1.3.1.5

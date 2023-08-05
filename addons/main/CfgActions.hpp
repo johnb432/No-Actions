@@ -22,11 +22,10 @@ class CfgActions {
     ACTION(EngineOff,None);
     ACTION(EngineOn,None);
 
-    ACTION(Eject,None);
-    ACTION(GetOut,None);
-
     ACTION(FlapsDown,None);
     ACTION(FlapsUp,None);
+
+    ACTION(Gear,None);
 
     ACTION(GetInCargo,None);
     ACTION(GetInCommander,None);
@@ -35,7 +34,7 @@ class CfgActions {
     ACTION(GetInPilot,None);
     ACTION(GetInTurret,None);
 
-    ACTION(Gear,None);
+    ACTION(GetOut,None);
 
     ACTION(LandGear,None);
     ACTION(LandGearUp,LandGear);
@@ -62,10 +61,11 @@ class CfgActions {
     ACTION(MoveToPilot,MoveToDriver);
     ACTION(MoveToTurret,None);
 
-    ACTION(OpenBag,None);
     ACTION(PutBag,None);
 
-    ACTION(Rearm,None);
+    ACTION(Refuel,None);
+    ACTION(Repair,None);
+    ACTION(RepairVehicle,None);
 
     ACTION(SearchLightOn,None);
     ACTION(SearchLightOff,SearchLightOn);
@@ -85,11 +85,48 @@ class CfgActions {
     ACTION(TurnIn,None);
     ACTION(TurnOut,None);
 
-    ACTION(UnloadUnconsciousUnits,None);
-
     ACTION(VectoringDown,None);
     ACTION(VectoringUp,None);
 
     ACTION(VTOLVectoring,AutoHover);
     ACTION(VTOLVectoringCancel,AutoHover);
+
+    // ACE compat
+    #if __has_include("z\ace\addons\explosives\script_component.hpp")
+    #else
+        ACTION(ActivateMine,None);
+        ACTION(Deactivate,None);
+        ACTION(DeactivateMine,None);
+        ACTION(UseContainerMagazine,None);
+    #endif
+
+    #if __has_include("z\ace\addons\interact_menu\script_component.hpp")
+    #else
+        ACTION(OpenBag,None);
+    #endif
+
+    #if __has_include("z\ace\addons\medical_engine\script_component.hpp")
+    #else
+        ACTION(FirstAid,None);
+        ACTION(Heal,None);
+        ACTION(HealSoldier,None);
+        ACTION(HealSoldierSelf,None);
+        ACTION(UnloadFromCargo,None);
+        ACTION(UnloadFromCommander,None);
+        ACTION(UnloadFromDriver,None);
+        ACTION(UnloadFromGunner,None);
+        ACTION(UnloadFromPilot,None);
+        ACTION(UnloadFromTurret,None);
+        ACTION(UnloadUnconsciousUnits,None);
+    #endif
+
+    #if __has_include("z\ace\addons\norearm\script_component.hpp")
+    #else
+        ACTION(Rearm,None);
+    #endif
+
+    #if __has_include("z\ace\addons\vehicles\script_component.hpp")
+    #else
+        ACTION(Eject,None);
+    #endif
 };

@@ -15,6 +15,8 @@
 * Reloading Weapons **(Warning: These settings affect vehicles too!!!)**
 * and much more
 
+If ACE is loaded, action settings such as for the "Put Mine" action will not be available.
+
 [AIMEE](https://steamcommunity.com/sharedfiles/filedetails/?id=2132195038) adds ACE interactions for most vanilla scroll wheel actions.
 
 <h2>Links</h2>
