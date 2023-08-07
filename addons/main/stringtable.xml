@@ -20,5 +20,17 @@
         <Key ID="STR_no_actions_main_LoadOtherMagazine_desc">
             <English>Hides the Reload entry from the action menu when the weapon is loaded.\nRequires a game restart. WARNING: THIS SETTING AFFECTS VEHICLES TOO.</English>
         </Key>
+        <Key ID="STR_no_actions_main_UseMagazine">
+            <English>Use Magazine</English>
+        </Key>
+        <Key ID="STR_no_actions_main_UseMagazine_desc">
+            <English>Hides the Use Magazine entry from the action menu when the weapon is unloaded.\nRequires a game restart.</English>
+        </Key>
+        <Key ID="STR_no_actions_main_UseWeapon">
+            <English>Use Weapon</English>
+        </Key>
+        <Key ID="STR_no_actions_main_UseWeapon_desc">
+            <English>Hides the Use Weapon entry from the action menu when the weapon is unloaded.\nRequires a game restart.</English>
+        </Key>
     </Package>
 </Project>

@@ -1,3 +1,8 @@
+# Changelog for No Actions 7.8.2023
+
+1.3.1.7
+- Added ability to turn off more explosives related actions.
+
 # Changelog for No Actions 5.8.2023
 
 1.3.1.6

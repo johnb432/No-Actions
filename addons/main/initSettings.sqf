@@ -77,6 +77,8 @@ NO_ACTION_SETTING(RepairVehicle,"Vehicles");
 NO_ACTION_SETTING(SearchLightOff,"Vehicles");
 NO_ACTION_SETTING(SearchLightOn,"Vehicles");
 
+NO_ACTION_SETTING(SetTimer,"Explosives");
+
 NO_ACTION_SETTING(BackFromUAV,"UAV");
 NO_ACTION_SETTING(SwitchToUAVDriver,"UAV");
 NO_ACTION_SETTING(SwitchToUAVGunner,"UAV");
@@ -89,8 +91,14 @@ NO_ACTION_SETTING(TakeItem,"General");
 NO_ACTION_SETTING(TakeDropWeapon,"Weapons");
 NO_ACTION_SETTING(TakeWeapon,"Weapons");
 
+NO_ACTION_SETTING(TouchOff,"Explosives");
+NO_ACTION_SETTING(TouchOffMines,"Explosives");
+
 NO_ACTION_SETTING(TurnIn,"Vehicles");
 NO_ACTION_SETTING(TurnOut,"Vehicles");
+
+NO_ACTION_SETTING(UseMagazine,"Explosives");
+NO_ACTION_SETTING(UseWeapon,"Explosives");
 
 NO_ACTION_SETTING(VectoringDown,"Air Vehicles");
 NO_ACTION_SETTING(VectoringUp,"Air Vehicles");
