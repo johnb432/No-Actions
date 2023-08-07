@@ -70,6 +70,8 @@ class CfgActions {
     ACTION(SearchLightOn,None);
     ACTION(SearchLightOff,SearchLightOn);
 
+    ACTION(SetTimer,None);
+
     ACTION(BackFromUAV,None);
     ACTION(SwitchToUAVDriver,None);
     ACTION(SwitchToUAVGunner,None);
@@ -82,8 +84,14 @@ class CfgActions {
     ACTION(TakeWeapon,None);
     ACTION(TakeDropWeapon,TakeWeapon);
 
+    ACTION(TouchOff,None);
+    ACTION(TouchOffMines,None);
+
     ACTION(TurnIn,None);
     ACTION(TurnOut,None);
+
+    ACTION(UseMagazine,None);
+    ACTION(UseWeapon,None);
 
     ACTION(VectoringDown,None);
     ACTION(VectoringUp,None);

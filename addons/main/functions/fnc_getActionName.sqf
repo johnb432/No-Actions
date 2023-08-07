@@ -20,7 +20,7 @@
 params ["_action", "_isDescription"];
 
 // Exceptions
-if (_action in ["LoadEmptyMagazine", "LoadOtherMagazine"]) exitWith {
+if (_action in ["LoadEmptyMagazine", "LoadOtherMagazine", "UseMagazine", "UseWeapon"]) exitWith {
     private _text = QUOTE(DOUBLES(STR,ADDON)) + "_"  + _action;
 
     if (_isDescription) then {
