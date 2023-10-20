@@ -100,21 +100,18 @@ class CfgActions {
     ACTION(VTOLVectoringCancel,AutoHover);
 
     // ACE compat
-    #if __has_include("z\ace\addons\explosives\script_component.hpp")
-    #else
+    #if __has_include("z\ace\addons\explosives\script_component.hpp") == 0
         ACTION(ActivateMine,None);
         ACTION(Deactivate,None);
         ACTION(DeactivateMine,None);
         ACTION(UseContainerMagazine,None);
     #endif
 
-    #if __has_include("z\ace\addons\interact_menu\script_component.hpp")
-    #else
+    #if __has_include("z\ace\addons\interact_menu\script_component.hpp") == 0
         ACTION(OpenBag,None);
     #endif
 
-    #if __has_include("z\ace\addons\medical_engine\script_component.hpp")
-    #else
+    #if __has_include("z\ace\addons\medical_engine\script_component.hpp") == 0
         ACTION(FirstAid,None);
         ACTION(Heal,None);
         ACTION(HealSoldier,None);
@@ -128,13 +125,11 @@ class CfgActions {
         ACTION(UnloadUnconsciousUnits,None);
     #endif
 
-    #if __has_include("z\ace\addons\norearm\script_component.hpp")
-    #else
+    #if __has_include("z\ace\addons\norearm\script_component.hpp") == 0
         ACTION(Rearm,None);
     #endif
 
-    #if __has_include("z\ace\addons\vehicles\script_component.hpp")
-    #else
+    #if __has_include("z\ace\addons\vehicles\script_component.hpp") == 0
         ACTION(Eject,None);
     #endif
 };

@@ -1,3 +1,8 @@
+# Changelog for No Actions 20.10.2023
+
+1.3.2.0
+- Added ACE 3.16.0 compatibility.
+
 # Changelog for No Actions 7.8.2023
 
 1.3.1.7
