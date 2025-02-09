@@ -1,3 +1,8 @@
+# Changelog for No Actions 9.2.2025
+
+1.3.3.0
+- Minor optimisations.
+
 # Changelog for No Actions 20.10.2023
 
 1.3.2.0
