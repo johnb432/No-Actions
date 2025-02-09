@@ -5,7 +5,7 @@ ADDON = false;
 #include "XEH_PREP.hpp"
 
 // CBA Settings
-#include "initSettings.sqf"
+#include "initSettings.inc.sqf"
 
 // Strings must exactly be like this (no extra spaces, tabs or newlines)
 GVAR(actions) = ["

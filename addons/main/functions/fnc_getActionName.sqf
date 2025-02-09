@@ -30,13 +30,4 @@ if (_action in ["LoadEmptyMagazine", "LoadOtherMagazine", "UseMagazine", "UseWea
     localize _text
 };
 
-private _text = getText (configFile >> "CfgActions" >> _action >> "text");
-
-private _index = -1;
-
-// Remove all "%"
-while {_index = _text find "%"; _index != -1} do {
-    _text = (_text select [0, _index]) + (_text select [_index + 2]);
-};
-
-trim _text
+trim (getText (configFile >> "CfgActions" >> _action >> "text") regexReplace ["%[0-9]+", ""])

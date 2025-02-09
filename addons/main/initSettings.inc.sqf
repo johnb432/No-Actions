@@ -109,18 +109,18 @@ NO_ACTION_SETTING(VTOLVectoringCancel,"Air Vehicles");
 private _cfgPatches = configFile >> "CfgPatches";
 
 // ACE compat
-if !(isClass (_cfgPatches >> "ace_explosives")) then {
+if (!isClass (_cfgPatches >> "ace_explosives")) then {
     NO_ACTION_SETTING(ActivateMine,"Explosives");
     NO_ACTION_SETTING(Deactivate,"Explosives");
     NO_ACTION_SETTING(DeactivateMine,"Explosives");
     NO_ACTION_SETTING(UseContainerMagazine,"Explosives");
 };
 
-if !(isClass (_cfgPatches >> "ace_interact_menu")) then {
+if (!isClass (_cfgPatches >> "ace_interact_menu")) then {
     NO_ACTION_SETTING(OpenBag,"General");
 };
 
-if !(isClass (_cfgPatches >> "ace_medical_engine")) then {
+if (!isClass (_cfgPatches >> "ace_medical_engine")) then {
     NO_ACTION_SETTING(FirstAid,"Medical");
     NO_ACTION_SETTING(Heal,"Medical");
     NO_ACTION_SETTING(HealSoldier,"Medical");
@@ -134,10 +134,10 @@ if !(isClass (_cfgPatches >> "ace_medical_engine")) then {
     NO_ACTION_SETTING(UnloadUnconsciousUnits,"Vehicles");
 };
 
-if !(isClass (_cfgPatches >> "ace_norearm")) then {
+if (!isClass (_cfgPatches >> "ace_norearm")) then {
     NO_ACTION_SETTING(Rearm,"Vehicles");
 };
 
-if !(isClass (_cfgPatches >> "ace_vehicles")) then {
+if (!isClass (_cfgPatches >> "ace_vehicles")) then {
     NO_ACTION_SETTING(Eject,"Vehicles");
 };

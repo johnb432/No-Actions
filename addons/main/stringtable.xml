@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="no_actions">
     <Package name="main">
-        <Key ID="STR_no_actions_main_action">
-            <English>Hide %1 action</English>
-        </Key>
-        <Key ID="STR_no_actions_main_action_desc">
-            <English>Hides the %1 entry from the action menu.\nRequires a game restart.</English>
-        </Key>
-
         <Key ID="STR_no_actions_main_LoadEmptyMagazine">
             <English>Reload (unloaded weapon)</English>
         </Key>
@@ -31,6 +24,12 @@
         </Key>
         <Key ID="STR_no_actions_main_UseWeapon_desc">
             <English>Hides the Use Weapon entry from the action menu when the weapon is unloaded.\nRequires a game restart.</English>
+        </Key>
+        <Key ID="STR_no_actions_main_action">
+            <English>Hide %1 action</English>
+        </Key>
+        <Key ID="STR_no_actions_main_action_desc">
+            <English>Hides the %1 entry from the action menu.\nRequires a game restart.</English>
         </Key>
     </Package>
 </Project>

@@ -2,7 +2,7 @@
 
 [h2]CBA Settings[/h2]
 
-[b]Any changes to the CBA settings requires a game restart for the changes to take effect.[/b]
+[b]Any changes to the CBA settings require a game restart for the changes to take effect.[/b]
 [list]
 [*] Collision lights on & off
 [*] Eject (which ACE3 also offers to disable)
