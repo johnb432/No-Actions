@@ -7,6 +7,8 @@ class NAME: PARENT {\
 
 class CfgActions {
     class None;
+    ACTION(ArtilleryComputer,None);
+
     ACTION(AutoHover,None);
     ACTION(AutoHoverCancel,AutoHover);
 
