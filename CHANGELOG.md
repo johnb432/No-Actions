@@ -1,3 +1,8 @@
+# Changelog for No Actions 27.9.2025
+
+1.3.4.0
+- Added setting to disable the artillery computer action.
+
 # Changelog for No Actions 9.2.2025
 
 1.3.3.0

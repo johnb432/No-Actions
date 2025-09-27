@@ -15,6 +15,8 @@
     true\
 ] call CBA_fnc_addSetting
 
+NO_ACTION_SETTING(ArtilleryComputer,"Vehicles");
+
 NO_ACTION_SETTING(AutoHover,"Air Vehicles");
 NO_ACTION_SETTING(AutoHoverCancel,"Air Vehicles");
 
