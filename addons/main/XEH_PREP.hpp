@@ -1,1 +1,2 @@
 PREP(getActionName);
+PREP(hideAction);

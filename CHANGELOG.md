@@ -1,3 +1,8 @@
+# Changelog for No Actions 18.8.2025
+
+1.4.0.0
+- Use 2.22 `hideActions` command to hide actions. No longer requires game restart for changes to take effect.
+
 # Changelog for No Actions 27.9.2025
 
 1.3.4.0
